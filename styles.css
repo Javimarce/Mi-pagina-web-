@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+#main-gif {
+    width: 80%; /* Ajusta el tamaño del GIF principal */
+    max-width: 400px; /* Tamaño máximo del GIF */
+    height: auto;
+}
+
+#main-question {
+    color: black;
+}
+
+#dynamic-question-container {
+    margin-top: 10px;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+#yes {
+    background-color: green;
+    color: white;
+}
+
+#no {
+    background-color: red;
+    color: white;
+}
+
+#thanks img {
+    width: 40%; /* Ajusta el tamaño de los GIFs de agradecimiento */
+    height: auto;
+}
+
+#thanks h2 {
+    margin: 20px 0;
+}
